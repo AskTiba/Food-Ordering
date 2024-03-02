@@ -11,12 +11,12 @@ type ProductListItemProps = {
 
 const ProductListItem = ({ product }: ProductListItemProps) => {
   return (
-    <View className="bg-white p-[10px] rounded-[20px]">
+    <View className="flex-1 bg-white p-[10px] rounded-[20px] m-2">
       <Image
         source={{ uri: product.image || defaultPizzaImage }}
         className="w-full aspect-square"
       />
-      <Text className="text-[30px] font-[600] my-[10px]">{product.name}</Text>
+      <Text className="text-[18px] font-[600] my-[10px]">{product.name}</Text>
       <Text className="text-[#32cd32]">${product.price}</Text>
     </View>
   );
