@@ -1,6 +1,7 @@
 {
   "extends": "expo/tsconfig.base",
   "compilerOptions": {
+    // "outDir": "./src",
     "allowSyntheticDefaultImports": true,
     "strict": true,
     "baseUrl": ".",
